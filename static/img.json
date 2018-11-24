@@ -1,0 +1,11 @@
+{
+  "linkImg": [{
+    "src": "./static/1.png"
+  },{
+    "src": "./static/2.png"
+  },{
+    "src": "./static/3.png"
+  },{
+    "src": "./static/4.png"
+  }]
+}

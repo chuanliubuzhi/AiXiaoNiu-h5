@@ -17,6 +17,7 @@
     </div>
 </template>
 <script>
+import Data from '../../static/img.json'
 export default {
   name: "showfengqin",
   data() {
@@ -26,28 +27,28 @@ export default {
           name: "翻台速度",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: "../assets/images/1.png",
+          src: "",
           show: false
         },
         {
           name: "人力成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: "../assets/images/2.png",
+          src: "",
           show: false
         },
         {
           name: "设备成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: "../assets/images/3.png",
+          src: "",
           show: false
         },
         {
           name: "推广成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require('../assets/images/4.png'),
+          src: "",
           show: false
         }
       ]
@@ -68,6 +69,11 @@ export default {
     },
     doThis: function(index) {
       //   alert(index);
+    },
+    getImg: function(Data) {
+      for(var i=0;i<Data.length; i++) {
+        headerData[i].src = Data[i].src
+      }
     }
   }
 };
