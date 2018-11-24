@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="images">
     <div class="banner">
         <h1>智能餐饮管理解决方案</h1>
         <h4>软硬件一体，全面提升门店运营效率、降低成本、增加利润</h4>
@@ -10,39 +10,39 @@
         <h5>国内领先餐厅O2O解决方案</h5>
         <div>
             <a href="">
-                <img src="../assets/home/line-up.png" alt="">
+                <img src="../assets/images/line-up.png" alt="">
                 <h6>微信预定排队</h6>
             </a>
             <a href="">
-                <img src="../assets/home/wx-order.png" alt="">
+                <img src="../assets/images/wx-order.png" alt="">
                 <h6>微信扫码点餐</h6>
             </a>
             <a href="">
-                <img src="../assets/home/plug-in.png" alt="">
+                <img src="../assets/images/plug-in.png" alt="">
                 <h6>营销插件</h6>
             </a>
         </div>
         <div>
             <a href="">
-                <img src="../assets/home/membership.png" alt="">
+                <img src="../assets/images/membership.png" alt="">
                 <h6>会员系统</h6>
             </a>
             <a href="">
-                <img src="../assets/home/report.png" alt="">
+                <img src="../assets/images/report.png" alt="">
                 <h6>精细化报表</h6>
             </a>
             <a href="">
-                <img src="../assets/home/cloud-print.png" alt="">
+                <img src="../assets/images/cloud-print.png" alt="">
                 <h6>厨房云打印</h6>
             </a>
         </div>
         <div>
             <a href="">
-                <img src="../assets/home/hardware-butt.png" alt="">
+                <img src="../assets/images/hardware-butt.png" alt="">
                 <h6>智能硬件对接</h6>
             </a>
             <a href="">
-                <img src="../assets/home/platform-butt.png" alt="">
+                <img src="../assets/images/platform-butt.png" alt="">
                 <h6>平台对接</h6>
             </a>
         </div>
@@ -192,7 +192,7 @@ export default {
 /* banner */
 .banner {
   height: 4rem;
-  background: url(../assets/home/banner.png);
+  background: url(../assets/images/banner.png);
   padding-top: 0.3rem;
   text-align: center;
 }
@@ -262,16 +262,16 @@ export default {
   padding-top: 0.7rem;
 }
 .professional .unity {
-  background-image: url(../assets/home/one.png);
+  background-image: url(../assets/images/one.png);
 }
 .to-the-store {
-  background-image: url(../assets/home/two.png);
+  background-image: url(../assets/images/two.png);
 }
 .card {
-  background-image: url(../assets/home/three.png);
+  background-image: url(../assets/images/three.png);
 }
 .report {
-  background-image: url(../assets/home/four.png);
+  background-image: url(../assets/images/four.png);
 }
 .professional .son_tittle {
   font-size: 0.35rem;
@@ -306,20 +306,20 @@ export default {
   background-size: 0.8rem;
 }
 .efficiency .first {
-  background-image: url(../assets/home/1.png);
+  background-image: url(../assets/images/1.png);
 }
 .efficiency .second {
-  background-image: url(../assets/home/2.png);
+  background-image: url(../assets/images/2.png);
 }
 .efficiency .third {
-  background-image: url(../assets/home/3.png);
+  background-image: url(../assets/images/3.png);
 }
 .efficiency .fourth {
-  background-image: url(../assets/home/4.png);
+  background-image: url(../assets/images/4.png);
 }
 .efficiency .right {
   width: 1.38rem;
   height: 100%;
-  background: url(../assets/home/jt_down.png) no-repeat center center;
+  background: url(../assets/images/jt_down.png) no-repeat center center;
 }
 </style>

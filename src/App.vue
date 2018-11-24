@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="header">
+    <div class="header clearfix">
       <a href="###" class="logo" alt="logo"></a>
       <ul>
         <li v-for="(menu, index) in menus" :key="index" >
@@ -49,7 +49,16 @@ export default {
 </script>
 
 <style>
-
+/* .clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  zoom : 1;
+} */
 .router-link-active{
   color: #b3c7ff;
 }

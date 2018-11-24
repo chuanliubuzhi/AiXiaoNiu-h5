@@ -7,11 +7,11 @@
                 <img :src="item.src" alt="加载中..">
                 <span>{{item.name}}</span>
                 <!-- 判断当前这条数据的bool值如果是true就打开二级菜单,如果是false就关闭二级菜单 -->
-                <div v-show="item.show" class="menu"> 
+                <div v-show="item.show" class="menu">
                     <!-- 循环二级菜单数据并使用.stop阻止冒泡 -->
                     <p v-on:click.stop="doThis(index)">{{item.list}}</p>
                 </div>
-              
+
             </li>
         </ul>
     </div>
@@ -26,28 +26,28 @@ export default {
           name: "翻台速度",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require("../assets/home/1.png"),
+          src: require("../assets/images/1.png"),
           show: false
         },
         {
           name: "人力成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require("../assets/home/2.png"),
+          src: require("../assets/images/2.png"),
           show: false
         },
         {
           name: "设备成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require("../assets/home/3.png"),
+          src: require("../assets/images/3.png"),
           show: false
         },
         {
           name: "推广成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require("../assets/home/4.png"),
+          src: require("../assets/images/4.png"),
           show: false
         }
       ]
@@ -107,13 +107,13 @@ export default {
   font-size: 0.2rem;
 }
 .active {
-  background-image: url(../assets/home/jt_up.png);
+  background-image: url(../assets/images/jt_up.png);
   background-repeat: no-repeat;
   background-position: 4.6rem 0.4rem;
   background-size: 0.21rem 0.13rem;
 }
 .noactive {
-  background-image: url(../assets/home/jt_down.png);
+  background-image: url(../assets/images/jt_down.png);
   background-repeat: no-repeat;
   background-position: 4.6rem 0.4rem;
   background-size: 0.21rem 0.13rem;
