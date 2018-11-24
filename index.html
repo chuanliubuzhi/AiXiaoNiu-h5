@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0 user-scalable=no">
+  <title>爱小牛</title>
+</head>
+<body>
+  <script>
+//屏幕适应 
+    (function (win, doc) {
+        if (!win.addEventListener) return;
+        var html = document.documentElement;
+        function setFont() {
+          var html = document.documentElement;
+          var k = 750;
+          html.style.fontSize = html.clientWidth / k * 100 + "px";
+        }
+        setFont();
+        setTimeout(function () {
+            setFont();
+        }, 300);
+        doc.addEventListener('DOMContentLoaded', setFont, false);
+        win.addEventListener('resize', setFont, false);
+        win.addEventListener('load', setFont, false);
+    })(window, document);  
+  </script>
+  <style>
+    html,body{
+      margin: 0;
+      padding: 0;
+    }
+    *{
+      box-sizing: border-box;
+    }
+    a{
+      text-decoration: none;
+    }
+  </style>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+</html>
+	
