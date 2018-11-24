@@ -17,7 +17,7 @@
     </div>
 </template>
 <script>
-import Data from '../../static/img.json'
+import XXX from '../../static/img.json'
 export default {
   name: "showfengqin",
   data() {
@@ -27,7 +27,7 @@ export default {
           name: "翻台速度",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: "",
+          src: "111",
           show: false
         },
         {
@@ -69,13 +69,18 @@ export default {
     },
     doThis: function(index) {
       //   alert(index);
-    },
-    getImg: function(Data) {
-      for(var i=0;i<Data.length; i++) {
-        headerData[i].src = Data[i].src
-      }
     }
-  }
+
+  },
+  mounted: function() {
+      var linkImg = XXX.linkImg
+      var newHeaderData = new Array
+
+      this.headerData.forEach(function(val , index){
+        val.src = linkImg[index].src
+      })
+    }
+
 };
 </script>
 <style>
