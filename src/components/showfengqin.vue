@@ -26,28 +26,28 @@ export default {
           name: "翻台速度",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require("../assets/images/1.png"),
+          src: "../assets/images/1.png",
           show: false
         },
         {
           name: "人力成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require("../assets/images/2.png"),
+          src: "../assets/images/2.png",
           show: false
         },
         {
           name: "设备成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require("../assets/images/3.png"),
+          src: "../assets/images/3.png",
           show: false
         },
         {
           name: "推广成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: require("../assets/images/4.png"),
+          src: "../assets/images/4.png",
           show: false
         }
       ]
