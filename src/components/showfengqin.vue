@@ -47,7 +47,7 @@ export default {
           name: "推广成本",
           list:
             "微信推送营销，节省营销成本；微信群发消息，拒绝人工散发传单的低效、浪费甚至破坏环境",
-          src: "../assets/images/4.png",
+          src: require('../assets/images/4.png'),
           show: false
         }
       ]
